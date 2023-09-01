@@ -2,9 +2,8 @@
 **Описание**
 
 Проект содержит скрипт получения событий из потоков Kafka и пример настроек профиля MP SIEM.
-Скрипт базируется на библиотеке [kafka-python](https://github.com/dpkp/kafka-python) и требует её наличия на агентах. Для установки kafka-python необходимо поместить в архив `C:\Program Files (x86)\Positive Technologies\MaxPatrol SIEM Agent\modules\PyEventCollector\CustomEventCollector.zip` папку kafka:
+Скрипт базируется на библиотеке [kafka-python](https://github.com/dpkp/kafka-python) и требует её наличия на агентах. Для установки kafka-python необходимо поместить модули библиотеки в произвольную папку и указать в скрипте путь к ней, либо в папку `C:\xxx\yyy` указанную в скрипте сейчас.
 
-![kafkadir](/kafkadir.png)
 
 **Установка и настройка**
 
