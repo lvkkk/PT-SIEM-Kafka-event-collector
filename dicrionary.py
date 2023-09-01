@@ -5,6 +5,9 @@ from kafka import KafkaConsumer
 from datetime import datetime
 import json
 
+import sys
+sys.path.append('C:\xxx\yyy')
+
 def collect(target, settings, savepoint):
     consumer = KafkaConsumer(bootstrap_servers=settings['server'],
                              auto_offset_reset='earliest',
